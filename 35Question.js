@@ -1,11 +1,9 @@
 // // 1. Hello World Program
 // // Write a program to print "Hello, World!" on the screen.
-
 // console.log("hello world!")
 
 // // 2. Sum of Two Numbers
 // // Write a program to find the sum of two numbers the user enters.
-
 // var a =2,b=3;
 // console.log(a+b);
 
@@ -22,7 +20,6 @@
 
 // // 4. Even or Odd
 // // Write a program to check whether a given number is even or odd.
-
 // var a = 45 ;
 // if(a%2 == 0){
 //     console.log("even");
@@ -32,35 +29,48 @@
 
 // // 5. Factorial of a Number
 // // Write a program to calculate the factorial of a given number.
-
 // var mul = 1,i,num = 6;
 // for(i = 1;i<=num;i++){
 //      mul  *= i;
 // }
-
 // console.log(mul, " is factorial of ",num);
 
 // // 6. Reverse a Number
 // // Write a program to reverse a given integer.
-// var ab = 123;
-
-// console.log(bc)
-// var cd = ' ';
-
-
-// var reverse = 0;
-// for(var i = bc.length-1;i>=0;i-- ){
-
-//     cd += bc[i];
-
+//  var num = 123;
+//  var rnum = 0;
+// var str = num.toString();
+// var len = str.length;
+// for(var i = 0;i<len;i++){
+// var digit = num %10;
+// rnum = rnum*10 + digit;
+// num = (num-digit)/10
 // }
-// console.log(cd)
+// console.log(rnum);
 
-// // 7. Palindrome Check
-// // Write a program to check whether a given number is a palindrome.
+
+
+// // // 7. Palindrome Check
+// // // Write a program to check whether a given number is a palindrome.
+
+// var num = 123;
+// var rnum = 0;
+// var str = num.toString();
+// var len = str.length;
+// for(var i = 0;i<len;i++){
+// var digit = num %10;
+// rnum = rnum*10 + digit;
+// num = (num-digit)/10
+// }
+// if(rnum == str){
+//     console.log("palidrome")
+// }else{
+//     console.log("not palidrome")
+// }
+
+//by string
 // var str = 'madam';
 // var rstr = '';
-
 // for(var i = str.length -1;i>=0;i--){
 //     rstr += str[i];
 // }
@@ -72,17 +82,12 @@
 
 // // 8. Sum of Digits
 // // Write a program to find the sum of digits of a given num
-
 // var  num = 123;
-
 // var sum=0;
-
-
 // while(num != 0){
 //     var digit = num%10;
 //     num = (num-digit)/10
 //     sum = sum + digit;
-
 // }
 // console.log(sum)
 
@@ -94,7 +99,6 @@
 // if(num%i ==0){
 //     count++;
 // }
-
 // }
 // if(count>0){
 //     console.log("not prime")
@@ -110,7 +114,6 @@
 // var sum;
 // for(var i =0;i<giv_num;i++){
 //     sum =first +sec;
-
 //     first = sec;
 //     sec = sum;
 // }
@@ -119,7 +122,6 @@
 // // 11. Swapping Two Numbers
 // // Write a program to swap two numbers without using a third variable.
 // var a = 9,b=7;
-
 // a= a+b;
 // b =a-b;
 // a =a-b;
@@ -127,7 +129,6 @@
 
 // // 12. Swap Two Numbers Using Third Variable
 // // Write a program to swap two numbers using a third variable.
-
 // var a= 3,b =8,temp;
 // temp = a;
 // a= b;
